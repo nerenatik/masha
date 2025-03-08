@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>8 Марта - Для самой стильной! 💄</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #2A2356, #6B3FA0, #FF6B6B);
+            font-family: 'Arial Rounded MT Bold', sans-serif;
+            text-align: center;
+            padding: 20px;
+            min-height: 100vh;
+            color: #FFF;
+            animation: gradientShift 15s ease infinite;
+        }
+
+        .card {
+            background: rgba(42, 35, 86, 0.9);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 30px auto;
+            max-width: 600px;
+            backdrop-filter: blur(10px);
+            border: 2px solid #FF6B6B;
+            box-shadow: 0 0 40px rgba(107, 63, 160, 0.4);
+        }
+
+        .photo-container {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s;
+        }
+
+        .photo-container:hover {
+            transform: scale(1.02);
+        }
+
+        .photo-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #FFD700;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+            margin: 20px 0;
+        }
+
+        p {
+            color: #E6E6FA;
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                padding: 20px;
+                margin: 15px auto;
+            }
+            
+            .photo-container {
+                border-radius: 10px;
+            }
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <!-- Замените ссылку на свою фотографию -->
+        <div class="photo-container">
+            <img src="Снимок экрана 2025-03-08 135423.png" alt="Ваше фото">
+        </div>
+
+        <h1>🌺 С 8 Марта, Солнышко! 🌺</h1>
+        
+        <p>
+            Ты - воплощение стиля и грации!<br>
+            В этот особенный день желаю:<br>
+            ★ Невероятных возможностей<br>
+            ★ Ярких впечатлений<br>
+            ★ Вдохновения каждый день<br>
+            ★ И бесконечного счастья!<br><br>
+            Пусть весь год будет таким же прекрасным,<br>
+            Как ты сама! 💖
+        </p>
+
+        <div style="margin: 25px;">
+            <iframe style="border-radius:12px" 
+                    src="https://open.spotify.com/embed/track/4GJycRWuL2ppN1dqufdW8a?utm_source=generator" 
+                    width="100%" 
+                    height="352" 
+                    frameborder="0" 
+                    allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
